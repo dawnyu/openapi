@@ -1,13 +1,12 @@
 const Router = require('koa-router')
-const url = require('../controller/Url')
+const Wxapp = require('./wxapp')
 
 module.exports = function(){
   var router = new Router({
     prefix: '/api'
   })
-
-  router.get('/getUrl',url.getUrl)
-
+  //加载微信后台路由
+  Wxapp(router)
 
   return router
 }
