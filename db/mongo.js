@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const path = require('path')
 const fs = require('fs')
 
-const db = 'mongodb://localhost/nodemo'
+const db = 'mongodb://123.207.167.150/dawnsmo'
 
 mongoose.Promise = require('bluebird')
 mongoose.connection.openUri(db)

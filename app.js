@@ -30,7 +30,7 @@ var server;
 
 server = app.listen(8000)
 
-// console.log('app started at port 8000...')
+console.log('app started at port 8000...')
 // var socketIds = new Map()
 // var io = require("socket.io").listen(server)
 // io.sockets.on('connection', function(socket) {

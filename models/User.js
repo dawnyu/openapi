@@ -9,11 +9,48 @@ const UserSchema = new Schema({
   openid: {
     type: String
   },
+  wechatNickname: {
+    type: String
+  },
+  nickname: {
+    type: String
+  },
+  accountType: {
+    type: String // 0：精品导购
+  },
+  // 邀请码
+  invitationCode: {
+    type: String
+  },
+  // 上级
+  superiorId: {
+    type: String
+  },
+  // 是否是合伙人 0:不是 1是
+  partner: {
+    type: Number
+  },
+  phone: {
+    type: String
+  },
   username: {
     type: String
   },
-  pass: {
+  password: {
     type: String
+  },
+  integral: {
+    type: Number
+  },
+  yueducoin: {
+    type: Number
+  },
+  balance: {
+    type: Number
+  },
+  // 是否停用 0否 1是
+  deadStatus: {
+    type: Number
   },
   meta: {
     createAt: {

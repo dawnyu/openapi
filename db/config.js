@@ -3,7 +3,7 @@ module.exports = {
     username:'user',
     password:'123456',
     database: 'nodejs',
-    host: 'localhost',
+    host: '123.207.167.150',
     dialect: 'mysql',
     define:{
       underscored:false,
